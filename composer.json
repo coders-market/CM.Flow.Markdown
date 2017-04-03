@@ -1,0 +1,15 @@
+{
+    "name": "cm/flow-markdown",
+    "type": "neos-plugin",
+    "description": "Flow plugin to parse Markdown document.",
+    "license": "GPLv3",
+    "require": {
+        "neos/flow": "~4.0"
+    },
+    "keywords": ["flow","markdown","md","parser","document"],
+    "autoload": {
+        "psr-4": {
+            "CM\\Flow\\Markdown\\": "Classes"
+        }
+    }
+}
